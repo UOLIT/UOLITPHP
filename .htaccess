@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^(src/|submit\.php) - [F,L,NC]
+RewriteRule ^(core/|submit\.php) - [F,L,NC]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+ErrorDocument 403 "https://localhost:90/be/error/403"
+ErrorDocument 404 "https://localhost:90/be/error/404"
+
+RewriteRule ^(.*)$ index.php/$1
