@@ -2,13 +2,19 @@
 	class err extends core{
 
 		function Error403(){
-		   echo $this->themesView('err','403');
+			$data['date'] = date("d-m-Y");
+			$data['title'] = 'Error 403';
+		   echo $this->themesViewEmpt('err','403', $data);
 		}
 		function Error404(){
-		   echo $this->themesView('err','404');
+			$data['date'] = date("d-m-Y");
+			$data['title'] = 'Error 404';
+			echo $this->themesViewEmpt('err','404',$data);
 		}
 		function Error405(){
-		   echo $this->themesView('err','405');
+			$data['date'] = date("d-m-Y");
+			$data['title'] = 'Error 405';
+		   echo $this->themesViewEmpt('err','405', $data);
 		}
 
 

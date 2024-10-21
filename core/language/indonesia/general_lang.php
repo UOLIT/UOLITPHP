@@ -23,12 +23,12 @@ $lang['del_confirm'] = 'Apakah anda ingin menghapus transaksi ini?.';
 $lang['print_confirm'] = 'Apakah anda ingin mencetak transaksi ini?.';
 $lang['please_fill'] = 'Harap isi baris detail.';
 $lang['change_password_confirm'] = 'Apakah anda ingin mengubah kata sandi ini?.';
-$lang['process_confirm'] = 'Apakah anda ingin process transaksi ini?.';
+$lang['process_confirm'] = 'Apakah anda ingin proses transaksi ini?.';
 $lang['lock_confirm'] = 'Apakah anda ingin mengunci transaksi ini?';
 $lang['unlock_confirm'] = 'Apakah anda ingin membuka transaksi ini?';
 $lang['unlock_success'] = 'Transaksi berhasil dibuka';
 $lang['lock_success'] = 'Transaksi berhasil di kunci';
-$lang['process_contract_confirm'] = 'Apakah anda yakin untuk process kontrak?.';
+$lang['process_contract_confirm'] = 'Apakah anda yakin untuk proses kontrak?.';
 $lang['please_wait'] = 'Mohon Tunggu';
 
 //-------------------------------VALIDATION MESSAGE---------------------------------------
@@ -63,7 +63,7 @@ $lang['change profile'] = 'Rubah Profil';
 $lang['administration'] = 'Administrasi';
 $lang['configuration'] = 'Konfigurasi';
 $lang['reset email and password'] = 'Ubah Email & Kata sandi';
-$lang['open lock salary process'] = 'Buka Lock process Penggajian';
+$lang['open lock salary process'] = 'Buka Lock Proses Penggajian';
 $lang['module'] = 'Modul';
 $lang['role'] = 'Wewenang';
 $lang['authorization'] = 'Otoritasi';
@@ -159,7 +159,7 @@ $lang['attendance import'] = 'Import Absensi';
 $lang['overtime break'] = 'Istirahat Lembur';
 $lang['overtime editor'] = 'Editor Lembur';
 $lang['overtime import'] = 'Import Lembur';
-$lang['overtime process'] = 'process Lembur Dan Tunj. Kerajinan';
+$lang['overtime process'] = 'Proses Lembur Dan Tunj. Kerajinan';
 $lang['benefit editor'] = 'Editor Manfaat';
 $lang['permit editor'] = 'Editor Izin';
 $lang['leave editor'] = 'Editor Cuti';
@@ -219,14 +219,14 @@ $lang['import_pph21'] = 'Impor PPH21';
 
 $lang['event approval'] = 'Persetujuan Peristiwa';
 
-$lang['fuel and parking benefit process'] = 'process Tunjangan Bensin & Parkir';
-$lang['salary and tax process'] = 'process Gaji & Pajak';
-$lang['salary bpjs executive process'] = 'process Perhitungan BPJS Eksekutif';
-$lang['salary bpjs process'] = 'process Perhitungan BPJS Umum';
-$lang['salary daily process'] = 'process Perhitungan Upah Harian';
-$lang['salary process'] = 'process Perhitungan Upah';
-$lang['tax process'] = 'process Perhitungan Pajak';
-$lang['tax_process_list'] = 'Daftar process Perhitungan Pajak';
+$lang['fuel and parking benefit process'] = 'Proses Tunjangan Bensin & Parkir';
+$lang['salary and tax process'] = 'Proses Gaji & Pajak';
+$lang['salary bpjs executive process'] = 'Proses Perhitungan BPJS Eksekutif';
+$lang['salary bpjs process'] = 'Proses Perhitungan BPJS Umum';
+$lang['salary daily process'] = 'Proses Perhitungan Upah Harian';
+$lang['salary process'] = 'Proses Perhitungan Upah';
+$lang['tax process'] = 'Proses Perhitungan Pajak';
+$lang['tax_process_list'] = 'Daftar Proses Perhitungan Pajak';
 
 $lang['report'] = 'Laporan';
 $lang['report_absensi_personal'] = 'Laporan Absensi Pribadi';
@@ -305,8 +305,8 @@ $lang['rate bpjs ks'] = 'Nilai BPJS KS (%)';
 //dashboard
 $lang['today_notif'] = 'Notifikasi Hari Ini';
 $lang['nothing_notif'] = 'Tidak Ada Notifikasi Untuk Anda Hari Ini';
-$lang['pending_req_in'] = 'Permintaan Approval Yang Belum Diprocess';
-$lang['pending_req_out'] = 'Permintaan Transaksi Yang Belum Diprocess';
+$lang['pending_req_in'] = 'Permintaan Approval Yang Belum Diproses';
+$lang['pending_req_out'] = 'Permintaan Transaksi Yang Belum Diproses';
 $lang['pending_req_ot_editor'] = 'Lembur yang belum diverifikasi';
 $lang['warning_emp_no_absent'] = 'Peringatan Karyawan Tidak Ada Absent';
 $lang['personal_stat'] = 'Statistik Pribadi';
@@ -372,7 +372,7 @@ $lang['approval_history'] = 'Histori Persetujuan';
 $lang['approval_date'] = 'Tanggal Persetujuan';
 $lang['under_div_or_depart'] = 'Dibawah Divisi/Departemen';
 $lang['div_cc_email'] = 'CC Email Divisi';
-$lang['processed_date'] = 'Tanggal diprocess';
+$lang['processed_date'] = 'Tanggal diproses';
 $lang['status'] = 'Status';
 //position applicant
 $lang['position_applicant_id'] = 'ID Posisi Pelamar';
@@ -597,7 +597,7 @@ $lang['error_name'] = 'Data Tidak Dapat Dimasukkan';
 $lang['success_name'] = 'Data Berhasil Dimasukkan';
 $lang['Entered_name'] = 'Data Dapat Dimasukkan';
 $lang['error_period'] = 'Periode Pajak Upload Harus Sama Semua';
-$lang['error_period_sudah'] = 'Periode Pajak Upload Sudah Pernah Diprocess Dengan User Ini';
+$lang['error_period_sudah'] = 'Periode Pajak Upload Sudah Pernah DiProses Dengan User Ini';
 $lang['error_npwp_group'] = 'NPWP Group Tidak Sama Dengan Yang Lain';
 $lang['error_number'] = 'Transaksi tidak dapat diubah';
 $lang['error_empty'] = 'Form tidak boleh kosong';
@@ -757,8 +757,8 @@ $lang['select_group'] = 'Pilih Grup';
 
 //---OT Editor
 $lang['ot_date'] = 'Tanggal Lembur';
-$lang['unprocess_ot_with_req'] = 'Lembur Dengan Pengajuan Yang Belum Di process';
-$lang['unprocess_ot_without_req'] = 'Lembur Tanpa Pengajuan Yang Belum Di process';
+$lang['unprocess_ot_with_req'] = 'Lembur Dengan Pengajuan Yang Belum Di Proses';
+$lang['unprocess_ot_without_req'] = 'Lembur Tanpa Pengajuan Yang Belum Di Proses';
 $lang['in'] = 'Masuk';
 $lang['out'] = 'Keluar';
 $lang['hour'] = 'Jam';
@@ -804,7 +804,7 @@ $lang['cancel'] = 'Batal';
 $lang['back'] = 'Kembali';
 $lang['submit'] = 'Kirim';
 $lang['save'] = 'Simpan';
-$lang['process'] = 'process';
+$lang['process'] = 'Proses';
 $lang['print'] = 'Cetak';
 $lang['close'] = 'Tutup';
 $lang['add_date'] = 'Tambah Tanggal';
@@ -831,7 +831,7 @@ $lang['start_date'] = 'Tanggal Mulai';
 $lang['end_date'] = 'Tanggal Berakhir';
 $lang['hired_date'] = 'Tanggal Awal Kerja';
 $lang['detail_date'] = 'Detail Tanggal';
-$lang['process_date'] = 'Tanggal process';
+$lang['process_date'] = 'Tanggal Proses';
 $lang['terminated_date'] = 'Tanggal Akhir Kerja';
 $lang['training_start_date'] = 'Tanggal Awal Pelatihan';
 $lang['training_end_date'] = 'Tanggal Akhir Pelatihan';
@@ -845,7 +845,7 @@ $lang['salary'] = 'Upah';
 $lang['amount'] = 'Jumlah';
 $lang['val'] = 'Nilai';
 $lang['att'] = 'Absensi';
-$lang['unprocessed'] = 'Belum Di process';
+$lang['unprocessed'] = 'Belum Di Proses';
 $lang['approved'] = 'Disetujui';
 $lang['rejected'] = 'Ditolak';
 $lang['cancelled'] = 'Dibatalkan';
@@ -873,7 +873,7 @@ $lang['shift_id'] = 'Shift ID';
 $lang['description'] = 'Deskripsi';
 $lang['active'] = 'Aktif';
 $lang['exclude'] = 'Dikecualikan';
-$lang['exclude_process'] = 'Dikecualikan Dari process';
+$lang['exclude_process'] = 'Dikecualikan Dari Proses';
 $lang['status_approval'] = 'Status Persetujuan';
 $lang['reason'] = 'Alasan';
 $lang['sanction'] = 'Sanksi';
@@ -1025,8 +1025,8 @@ $lang['salary_group'] = 'Grup Upah';
 $lang['select_salary_group'] = 'Pilih Grup Upah';
 $lang['salary_period'] = 'Periode Upah';
 $lang['end_date'] = 'Tanggal Akhir';
-$lang['salary_process_list'] = 'Daftar process Perhitungan Upah';
-$lang['last_process'] = 'process Terakhir';
+$lang['salary_process_list'] = 'Daftar Proses Perhitungan Upah';
+$lang['last_process'] = 'Proses Terakhir';
 $lang['payroll_date'] = 'Tanggal Penggajian';
 $lang['lock_and_set'] = 'Kunci & Atur';
 $lang['unlock'] = 'Buka Kunci';
@@ -1097,7 +1097,7 @@ $lang['report_employee'] = 'Laporan Karyawan';
 $lang['report_blacklist'] = 'Laporan Blacklist SDM';
 $lang['report_blacklist'] = 'Laporan Blacklist SDM';
 $lang['employee_report_excel'] = 'Laporan Karyawan (Excel)';
-$lang['employee_report_exclude_process_excel'] = 'Laporan Karyawan Dikecualikan Dr process(Excel)';
+$lang['employee_report_exclude_process_excel'] = 'Laporan Karyawan Dikecualikan Dr Proses(Excel)';
 $lang['employee_blacklist_report_excel'] = 'Laporan User Blacklist(Excel)';
 $lang['end_contract'] = 'Data Habis Kontrak';
 $lang['start_contract'] = 'Data Mulai Kontrak';
@@ -1216,12 +1216,12 @@ $lang['group_salary_id'] = 'ID Grup Penggajian';
 $lang['employee_group_salary'] = 'Grup Penggajian Karyawan';
 
 //overtime process
-$lang['overtime_process'] = 'process Lembur';
-$lang['report_process'] = 'process Laporan';
+$lang['overtime_process'] = 'Proses Lembur';
+$lang['report_process'] = 'Proses Laporan';
 $lang['spg'] = 'SPG';
 $lang['nonspg'] = 'BukanSPG';
 $lang['period_mm_yyy'] = 'Periode (mm/yyy)';
-$lang['overtime_process_list'] = 'Daftar process Lembur';
+$lang['overtime_process_list'] = 'Daftar Proses Lembur';
 $lang['locked_date'] = 'Tanggal Terkunci';
 $lang['export_excel'] = 'Ekspor Excel';
 $lang['export_ot_bank_excel'] = 'Export Lembur Bank Excel';
@@ -1231,14 +1231,14 @@ $lang['export_diligence_bank_excel_ex'] = 'Export Tunj.Kerajinan Bank Tranfer Ma
 $lang['export_perhitungan_pajak'] = 'Export Perhitungan Pajak';
 
 //salary daily process
-$lang['salary_daily_process_list'] = 'Daftar process Upah Harian';
+$lang['salary_daily_process_list'] = 'Daftar Proses Upah Harian';
 $lang['export_salary_daily_bank_excel'] = 'Export Gaji Harian Bank Tranfer';
 $lang['export_salary_daily_bank_excel_ex'] = 'Export Gaji Harian Bank Tranfer Mantan';
 $lang['export_rekap_salary_daily_excel'] = 'Export Rekap Gaji Harian(Excel)';
 $lang['export_salary_daily_excel_ex'] = 'Export Gaji Harian Mantan(Excel)';
 
 //tax process
-$lang['process_period'] = 'process Periode';
+$lang['process_period'] = 'Proses Periode';
 $lang['export_rekap_fuel_ben_excel'] = 'Export Rekap Tunj.Bensin&Parkir(Excel)';
 $lang['export_fuel_ben_bank_excel'] = 'Export Tunj.Bensin & Parkir Bank Tranfer';
 $lang['export_fuel_ben_bank_excel_ex'] = 'Export Tunj.Bensin & Parkir Mantan Bank Tranfer';
@@ -1329,7 +1329,7 @@ $lang['component_name'] = 'Component';
 $lang['component_formula'] = 'Component Formula';
 
 
-$lang['processed_by_gA'] = 'Diprocess GA';
+$lang['processed_by_gA'] = 'Diproses GA';
 
 
 $lang['transportation'] = 'Transportasi';

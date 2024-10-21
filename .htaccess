@@ -6,7 +6,7 @@ RewriteRule ^(core/|submit\.php) - [F,L,NC]
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
-ErrorDocument 403 "https://localhost:90/be/error/403"
-ErrorDocument 404 "https://localhost:90/be/error/404"
+ErrorDocument 403 "https://localhost/backend/error/403"
+ErrorDocument 404 "https://localhost/backend/error/404"
 
 RewriteRule ^(.*)$ index.php/$1
